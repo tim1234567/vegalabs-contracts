@@ -1,22 +1,19 @@
 {
-  "name": "hackathon",
+  "name": "hackaton",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.4",
-    "ethers": "^5.5.3",
-    "hardhat": "^2.8.2"
-  },
   "dependencies": {
-    "@alch/alchemy-web3": "^1.1.9",
-    "@openzeppelin/contracts": "^4.4.1",
-    "dotenv": "^10.0.0",
-    "web3": "^1.6.0"
+    "hardhat": "./hardhat/packages/hardhat-core/hardhat-v2.6.2.tgz",
+    "prb-math": "^2.4.3"
   }
 }
